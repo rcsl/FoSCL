@@ -1,0 +1,28 @@
+{
+  "name": "friendsofsonningcommonlibrary.org",
+  "version": "0.0.1",
+  "description": "Website of the Friends of Sonning Common Library, Oxfordshire, England",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcsl/FoSCL.git"
+  },
+  "keywords": [
+    "Library",
+    "Friends",
+    "Oxfordshire",
+    "SonningCommon"
+  ],
+  "author": "Mike Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcsl/FoSCL/issues"
+  },
+  "homepage": "https://github.com/rcsl/FoSCL#readme",
+  "dependencies": {
+    "keystone": "^4.0.0-beta.1"
+  }
+}
