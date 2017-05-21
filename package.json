@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/rcsl/FoSCL#readme",
   "dependencies": {
-    "keystone": "^4.0.0-beta.1"
+    "keystone": "^4.0.0-beta.1",
+    "pug": "^2.0.0-rc.1"
   }
 }
