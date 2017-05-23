@@ -14,6 +14,6 @@ User.schema.virtual('canAccessKeystone').get(function () {
   return true;
 });
 
-`User.defaultColumns = 'id, displayName, email';`
+User.defaultColumns = 'id, displayName, email';
 
 User.register();

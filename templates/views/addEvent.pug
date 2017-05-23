@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  head
+    title= "Add Event"
+  body
+    if enquirySumbitted
+      h3 Your Event has been added to the database
+    else
+      .container
+        .row: .col-sm-8.col-md-6
+          form(method='post')
+            input(type='hidden', name='action')
+            .form-group
+              label Event Name
+              input(type='text', name='name')
+              label Headline
+              input(type='text', name='shortDescription')
+            .form-group
+              label Start Time
+              input(type='datetime-local', name='startTime')
+            .form-group
+              label End Time
+              input(type='datetime-local', name='endTime')
+            .form-group
+              label Description
+              textarea(name='description', placeholder='event description...' rows=4)
+            .form-actions
+              button(type='submit').btn.btn-primary Send

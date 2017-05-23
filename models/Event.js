@@ -5,6 +5,7 @@ var Event = new keystone.List('Event');
 
 Event.add({
   name: { type: String, required: true, initial: true },
+  shortDescription : {type: String, required: true, initial: true},
   description: { type: Types.Html, wysiwyg: true },
   cost: { type: Number, default: 0, size: 'small' },
   startTime: { type: Types.Datetime, required: true, initial: true, index: true },
@@ -12,6 +13,7 @@ Event.add({
   location: { type: Types.Location, initial: true },
   published: { type: Boolean },
   publishDate: { type: Types.Date, index: true },
+  waitList : { type: Boolean},
 });
 
 Event.schema.virtual('canAccessKeystone').get(function () {
@@ -26,5 +28,5 @@ Event.schema.pre('save', function (next) {
   return next();
 });
 
-Event.defaultColumns = 'displayName, email';
+Event.defaultColumns = 'name, startTime';
 Event.register();
