@@ -14,7 +14,8 @@
     "Library",
     "Friends",
     "Oxfordshire",
-    "SonningCommon"
+    "Sonning Common",
+    "Non-profit"
   ],
   "author": "Mike Jones",
   "license": "ISC",
@@ -23,7 +24,7 @@
   },
   "homepage": "https://github.com/rcsl/FoSCL#readme",
   "dependencies": {
-    "keystone": "^4.0.0-beta.1",
+    "keystone": "^4.0.0-beta.5",
     "pug": "^2.0.0-rc.1"
   }
 }
