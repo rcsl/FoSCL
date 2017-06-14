@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:marked:20170112':
+    - keystone > marked:
+        patched: '2017-06-14T09:46:42.128Z'
+  'npm:ms:20151024':
+    - keystone > knox > debug > ms:
+        patched: '2017-06-14T09:46:42.128Z'
