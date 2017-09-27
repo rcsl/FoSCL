@@ -9,3 +9,26 @@ patch:
   'npm:ms:20151024':
     - keystone > knox > debug > ms:
         patched: '2017-06-14T09:46:42.128Z'
+  'npm:debug:20170905':
+    - keystone > express > finalhandler > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > body-parser > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > compression > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > express > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > express-session > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > express > send > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > morgan > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > express > serve-static > send > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > method-override > debug:
+        patched: '2017-09-27T06:41:15.943Z'
+    - keystone > mongoose > mquery > debug:
+        patched: '2017-09-27T06:41:15.943Z'
