@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -9,3 +9,48 @@ patch:
   'npm:ms:20151024':
     - keystone > knox > debug > ms:
         patched: '2017-06-14T09:46:42.128Z'
+  SNYK-JS-LODASH-567746:
+    - keystone > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/core > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > async > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > cloudinary > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > react-color > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > redux > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > react-dnd > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > react-dnd-html5-backend > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > mongoose > async > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > react-color > reactcss > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > react-dnd > dnd-core > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
+    - keystone > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-06T07:21:35.272Z'
