@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "repository": {
@@ -28,7 +28,7 @@
   "dependencies": {
     "keystone": "^4.0.0-beta.5",
     "pug": "^2.0.0-rc.1",
-    "snyk": "^1.34.3"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
